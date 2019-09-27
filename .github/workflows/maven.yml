@@ -23,9 +23,9 @@ jobs:
         pip install thrift
     - name: Build with Maven
       run: |
-      mvn package --file pom.xml
-      cd /home/runner/work/actions/actions/target
-      nohup java -jar actions-0.0.1-SNAPSHOT.jar &
+        mvn package --file pom.xml
+        cd /home/runner/work/actions/actions/target
+        nohup java -jar actions-0.0.1-SNAPSHOT.jar &
     - name: stop
       run: |
         kill -9 $(lsof -i tcp:8899 -t)
