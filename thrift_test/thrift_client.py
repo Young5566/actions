@@ -25,6 +25,7 @@ try:
     print('client-requets')
     res = client.getPersonByUsername("lisi")
     print('server-answer', res)
+
     transport.close()
 except Thrift.TException as ex:
     print(ex.message)
