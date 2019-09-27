@@ -24,7 +24,6 @@ try:
     data = Person("list")
     print('client-requets')
     res = client.getPersonByUsername("lisi")
-    # print(client.do_format(data).text)
     print('server-answer', res)
     transport.close()
 except Thrift.TException as ex:
