@@ -26,7 +26,6 @@ try:
     res = client.getPersonByUsername("lisi")
     # print(client.do_format(data).text)
     print('server-answer', res)
-
     transport.close()
 except Thrift.TException as ex:
     print(ex.message)
