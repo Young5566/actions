@@ -26,6 +26,10 @@ jobs:
         mvn package --file pom.xml
         cd /home/runner/work/actions/actions/target
         nohup java -jar thriftTest-1.0-SNAPSHOT.jar &
-    - name: stop
+    - name: Test
+      run: |
+        cd thrift_test
+        python thrift_client.py
+    - name: Stop
       run: |
         kill -9 $(lsof -i tcp:8899 -t)
