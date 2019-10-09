@@ -12,7 +12,7 @@ jobs:
       with:
         url: "http://tom-jerry.club:8011"
         user: "young"
-        token: "113de9577a696d1bdbb6052a0959c2c185"
+        token: "1144d84d50999f7619ec28391519dd22a0"
         job: "action_test" 
 #   build:
 #     timeout-minutes: 3
