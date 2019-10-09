@@ -44,7 +44,6 @@
     </dependencies>
 
     <build>
-        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -103,5 +102,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <defaultGoal>compile</defaultGoal>
     </build>
 </project>
