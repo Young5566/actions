@@ -137,11 +137,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1440" />
-    <option name="y" value="-164" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1751" />
+    <option name="y" value="-82" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
