@@ -12,7 +12,7 @@ jobs:
       with:
         url: "http://tom-jerry.club:8011"
         user: "young"
-        token: "1144d84d50999f7619ec28391519dd22a0"
+        token: ${{secrets.JENKINS_TOKEN}}
         job: "action_test"
 #   build:
 #     timeout-minutes: 3
